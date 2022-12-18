@@ -5,8 +5,6 @@
 int main() {
 	char	s[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	// comment-A: Nate's code starts here
-
 	char *p;
 	p = malloc(sizeof(int) * 13);
 
@@ -26,7 +24,7 @@ int main() {
 		}
 
 	//print p[] array with odd letters
-  int l = 0;
+  	int l = 0;
 	while (p[l] != '\0')
 	{
 		printf("%c ", p[l]);
@@ -37,7 +35,6 @@ int main() {
 		printf("\n");
 
 	free(p);
-	// comment-B: Nate's code ends here
 
 	return 0;
 }
