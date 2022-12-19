@@ -12,7 +12,7 @@ int n;
 int m1 = 2, m2 = 4;
 int m3 = 3;
 
-// below is new
+// declare mutex lock
 pthread_mutex_t lock;
 
 // below is new mutex lock initialization
