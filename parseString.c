@@ -4,7 +4,8 @@
 
 int main() {
 	char	s[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
+	
+	// declare pointer and allocate heap memory space
 	char *p;
 	p = malloc(sizeof(int) * 13);
 
